@@ -1,0 +1,64 @@
+#Hero {
+    /* background-image: url("https://cmsplatform.blob.core.windows.net/wwwkingmovingandstoragecom/page-info-images/70b6e7ed-dc85-4121-8d3b-95c4fd202c73.jpg"); */
+    background-image: url("R.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+    height: 100vh;
+    z-index: 1;
+}
+.scroll{
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+  
+
+.text{
+
+    display: inline-block;
+    padding: 1.72rem;
+    color: white;
+    background-color: #00a6ff;
+    margin-top: 5px;
+    border-radius: 0rem 0rem 10rem 10rem;
+    font-size: larger;
+
+}
+.logo{
+    font-size: 30px;
+    color: white;
+}
+
+@media(max-width: 728px){
+    .text p{
+        font-size: smaller;
+    }
+    .row{
+        gap: 2rem;
+    }
+    #Hero{
+        height: 100vh;
+    }
+}
+
+@media (max-width: 303px){
+    .card{
+        width: 15rem !important;
+    }
+}
+@media (max-width: 385px){
+    .logo{
+        font-size: 20px;
+    }
+}
+@media (max-width: 320px){
+    .logo img{
+        margin-left: -3rem;
+    }
+}
+
+.about-us {
+    color: white;
+    margin-top: 4rem;
+}   

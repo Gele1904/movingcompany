@@ -1,0 +1,10 @@
+#Services{
+    background-image: url("starting-moving-company.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    z-index: 1;
+    overflow: auto;
+}
