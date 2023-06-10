@@ -34,14 +34,11 @@
 
 .button{
     color: white;
-    margin-top: 5rem;
+    margin: 5rem;
     padding: 1rem;
     width: 10rem;
-    background-color: #c00b0b8b;
+    background-color: #c00b0bc4;
     border-radius: 5px;
-}
-.button::before{
-    color: black !important;
 }
 
 @media(max-width: 728px){
