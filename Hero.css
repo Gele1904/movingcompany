@@ -27,16 +27,21 @@
 }
 
 .card{
-    border-radius: 15px !important;
-}
-.card-body{
-    background-color: rgb(182, 11, 11);
-    border-radius: 15px;
+    border-radius: 5px !important;
+    background-color: rgba(199, 0, 0, 0.592) !important;
+    color: white !important;
 }
 
-.btn{
-    color: white !important;
+.button{
+    color: white;
     margin-top: 5rem;
+    padding: 1rem;
+    width: 10rem;
+    background-color: #c00b0b8b;
+    border-radius: 5px;
+}
+.button::before{
+    color: black !important;
 }
 
 @media(max-width: 728px){
@@ -59,11 +64,13 @@
         width: 15rem !important;
     }
 }
+
 @media (max-width: 385px){
     .logo{
         font-size: 20px;
     }
 }
+
 @media (max-width: 320px){
     .logo i{
         margin-left: -2.2rem;
@@ -73,8 +80,11 @@
 .about-us {
     color: white;
     margin-top: 2rem;
-}  
+}
 
-.card{
-    background: linear-gradient(to bottom, #c00b0b, #ffffff);
+.about-us h1{
+    display: inline;
+    padding: 0.5rem;
+    background-color: #c00b0b8b;
+    border-radius: 8px;
 }
