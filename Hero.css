@@ -1,28 +1,20 @@
 #Hero {
 
-    background-image: url("R.jpg");
+    background-image: url("https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?cs=srgb&dl=interior-design-of-a-house-1571460.jpg&fm=jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-    overflow-y: auto;
+    overflow: auto;
     height: 100vh;
-    z-index: 2;
+    z-index: 1;
 
 }
-
-.Scroll{
-    scroll-snap-type: y mandatory;
-    height: 100vh;
-}
-  
 
 .text{
 
     display: inline-block;
     padding: 2rem;
     color: white;
-    background-color: #00a6ff;
     margin-top: 1rem;
     border-radius: 0rem 0rem 10rem 10rem;
     font-size: larger;
@@ -34,6 +26,14 @@
     color: white;
 }
 
+.card{
+    border-radius: 15px !important;
+}
+.card-body{
+    background-color: rgb(182, 11, 11);
+    border-radius: 15px;
+}
+
 @media(max-width: 728px){
     .text p{
         font-size: smaller;
@@ -43,6 +43,9 @@
     }
     #Hero{
         height: 100vh;
+    }
+    #carouselExampleIndicators{
+        width: 100% !important;
     }
 }
 
@@ -57,12 +60,16 @@
     }
 }
 @media (max-width: 320px){
-    .logo img{
-        margin-left: -3rem;
+    .logo i{
+        margin-left: -2.2rem;
     }
 }
 
 .about-us {
     color: white;
-    margin-top: 4rem;
-}   
+    margin-top: 2rem;
+}  
+
+.card{
+    background: linear-gradient(to bottom, #c00b0b, #ffffff);
+}
