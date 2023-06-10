@@ -34,6 +34,11 @@
     border-radius: 15px;
 }
 
+.btn{
+    color: white !important;
+    margin-top: 5rem;
+}
+
 @media(max-width: 728px){
     .text p{
         font-size: smaller;
