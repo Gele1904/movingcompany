@@ -9,7 +9,7 @@
 
 @font-face{
   font-family: Infinity;
-  src: url(made_infinity/MADEINFINITY\ PERSONALUSE-Light.otf);
+  src: url(Infinity-Light.otf);
 }
 
 nav{
@@ -114,6 +114,7 @@ input[type="checkbox"]{
   nav ul li a.active,
   nav ul li a:hover{
     background: none;
-    color: orange;
+    color: cyan;
   }
 }
+
