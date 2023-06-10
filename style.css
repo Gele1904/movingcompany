@@ -2,9 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
   transition: 0.5s ease-in-out;
+  font-family: Infinity;
+}
+
+@font-face{
+  font-family: Infinity;
+  src: url(made_infinity/MADEINFINITY\ PERSONALUSE-Light.otf);
 }
 
 nav{
