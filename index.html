@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Hero.css">
     <link rel="stylesheet" href="Services.css">
+    <link rel="stylesheet" href="keyframes.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
@@ -22,15 +23,13 @@
     </label>
     <ul>
       <li><a class="active" href="#Hero">Home</a></li>
-      <li><a href="#About">About</a></li>
-      <li><a href="#">Services</a></li>
+      <li><a href="#Services">Services</a></li>
       <li><a href="#">Gallery</a></li>
       <li><a href="#">Feedback</a></li>
     </ul>
   </nav>
-
   <section id="Hero">
-    <div class="container text-center">
+  <div class="container text-center">
     <div class="text">
       <h1>Home<strong style="color: red;"> Express</strong></h1>
       <h3>Welcome to our trusted furniture moving company!</h3>
@@ -43,7 +42,7 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-md-4">
-          <div class="card mb-3 mt-5">
+          <div class="card mb-3 mt-5 mx-3">
             <div class="card-img-top mt-2"><img src="favpng_running-rabbit-hare.png" style="height: 8rem;"></div>
             <div class="card-body">
               <h5 class="card-title"><strong>Fast</strong></h5>
@@ -57,7 +56,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card mb-3 mt-5">
+          <div class="card mb-3 mt-5 mx-3">
             <div class="card-img-top mt-2"><img src="moneybag-removebg-preview.png" style="height: 8rem;"></div>
             <div class="card-body">
               <h5 class="card-title"><strong>Cheap</strong></h5>
@@ -70,8 +69,8 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card mb-3 mt-5">
-            <div class="card-img-top mt-2"><img src="handshake.png" style="height: 8rem;"></div>
+          <div class="card mb-3 mt-5 mx-3">
+            <div class="card-img-top mt-2"><img src="handshake.png" style="height: 7rem;"></div>
             <div class="card-body">
               <h5 class="card-title"><strong>Reliable</strong></h5>
               <p class="card-text">
@@ -86,41 +85,201 @@
     </div>
   </div>
   <button onclick="mail()" class="button"><i class="fa-solid fa-arrow-right"></i> Contact Us</button>
-  </section>
+</section>
 
-<section id="Services">
-  <div class="container d-flex justify-content-center">
-  <div id="carouselExampleIndicators" class="carousel slide pt-4 w-50" data-bs-ride="carousel" data-bs-touch="true">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src="starting-moving-company.jpg" class="d-block w-100">
+<section id="Work">
+  <div class="container text-center">
+    <h1>What we offer</h1>
+  </div>
+ <div id="options" class="container text-center">
+  <div class="firstOption">
+    <h2>Packing</h2>
+    <p class="desc">At our company, we offer a top-notch packing service designed to make your furniture moving process a breeze. 
+      Our dedicated team of professionals is skilled in handling and protecting your valuable belongings. With our expertise, 
+      we ensure that each item is meticulously wrapped and safeguarded, ensuring a smooth and secure transition to your new home. 
+      Trust us to provide an efficient and hassle-free packing experience. </p>
+    <div class="container d-flex justify-content-center">
+      <div id="carouselExampleIndicators" class="carousel slide pt-4 w-100" data-bs-ride="carousel" data-bs-touch="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-item" data-bs-interval="5000">
-        <img src="starting-moving-company.jpg" class="d-block w-100">
+     </div>
+  </div>
+  <div class="SecondOption">
+    <h2>Transport</h2>
+    <p class="desc">At our company, we specialize in reliable transport services that cater to your furniture moving needs. Our dedicated team ensures 
+      the safe and secure transportation of your belongings from your current house to the desired location. 
+      With our efficient logistics, we guarantee a smooth and timely delivery, providing you with a stress-free moving experience.</p>
+    <div class="container d-flex justify-content-center">
+      <div id="carouselExampleIndicators2" class="carousel slide pt-4 w-100" data-bs-ride="carousel" data-bs-touch="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-item" data-bs-interval="5000">
-        <img src="starting-moving-company.jpg" class="d-block w-100">
+     </div>
+  </div>
+  <div class="ThirdOption">
+    <h2>Delivery</h2>
+    <p class="desc">Delivery is a vital part of our comprehensive furniture moving service. Our company excels in providing prompt and efficient delivery solutions for your cherished belongings. 
+      With our experienced team and well-equipped vehicles, we ensure the timely and secure arrival of your furniture at the desired destination, making your move hassle-free and convenient.</p>
+    <div class="container d-flex justify-content-center">
+      <div id="carouselExampleIndicators3" class="carousel slide pt-4 w-100" data-bs-ride="carousel" data-bs-touch="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-item" data-bs-interval="5000">
-        <img src="starting-moving-company.jpg" class="d-block w-100">
+     </div>
+  </div>
+  <div class="fourthOption">
+    <h2>Unloading</h2>
+    <p class="desc">Unloading is a crucial step in our exceptional furniture moving service. 
+      Our skilled team specializes in efficiently and carefully unloading your furniture from our vehicles upon arrival at the designated location. 
+      With attention to detail and expertise, we ensure the safe and damage-free handling of your belongings, making your move seamless and stress-free.</p>
+    <div class="container d-flex justify-content-center">
+      <div id="carouselExampleIndicators4" class="carousel slide pt-4 w-100" data-bs-ride="carousel" data-bs-touch="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="starting-moving-company.jpg" class="d-block w-100">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+     </div>
   </div>
  </div>
 </section>
+
+<!-- <section id="ServiceCards">
+  <div class="container d-flex justify-content-center">
+    <div id="carouselExampleIndicators" class="carousel slide pt-4 w-50" data-bs-ride="carousel" data-bs-touch="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="starting-moving-company.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="starting-moving-company.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="starting-moving-company.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="starting-moving-company.jpg" class="d-block w-100">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   </div>
+</section> -->
 </body>
 </html>

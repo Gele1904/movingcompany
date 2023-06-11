@@ -1,0 +1,24 @@
+@keyframes text {
+    0%   {transform: translateX(-100rem);}
+    50% {transform: translateX(10rem);}
+    100% {}
+}
+
+@keyframes textPhone {
+    0%   {transform: translateX(-100rem);}
+    50% {transform: translateX(2rem);}
+    100% {}
+}
+
+@keyframes cards {
+    0% {transform: translateX(-100rem);}
+    50% {transform: translateX(5rem);}
+    100% {}
+}
+
+
+@keyframes cardsPhone {
+    0% {transform: translateX(-100rem);}
+    50% {transform: translateX(2rem);}
+    100% {}
+}

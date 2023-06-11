@@ -1,17 +1,19 @@
 #Hero {
 
-    background-image: url("https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?cs=srgb&dl=interior-design-of-a-house-1571460.jpg&fm=jpg");
+    background-image: url("interior-design-of-a-house-1571460.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    overflow: auto;
+    background-attachment: fixed;
     height: 100vh;
     z-index: 1;
+    overflow: auto;
 
 }
 
 .text{
-
+    animation-name: text;
+    animation-duration: 1.5s;
     display: inline-block;
     padding: 2rem;
     color: white;
@@ -22,14 +24,19 @@
 }
 
 .logo{
+
     font-size: 30px;
     color: white;
+
 }
 
 .card{
+    animation-name: cards;
+    animation-duration: 1.5s;
     border-radius: 5px !important;
     background-color: rgba(199, 0, 0, 0.592) !important;
     color: white !important;
+
 }
 
 .button{
@@ -42,6 +49,14 @@
 }
 
 @media(max-width: 728px){
+    .card{
+        animation-name: cardsPhone;
+        animation-duration: 1.5s;
+    }
+    .text{
+        animation-name: textPhone;
+        animation-duration: 1.5s;
+    }
     .text p{
         font-size: smaller;
     }
@@ -53,6 +68,17 @@
     }
     #carouselExampleIndicators{
         width: 100% !important;
+    }
+    #Hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("interior-design-of-a-house-1571460.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+        z-index: 1;
+        overflow: auto;
+    
     }
 }
 
