@@ -1,0 +1,80 @@
+#Work{
+    background-image: url("https://th.bing.com/th/id/R.56bf3d0495eaf316624a7aaa88223418?rik=e4qQ3K8cJ%2b%2b16Q&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+    object-fit: cover;
+    padding-bottom: 1rem;
+    background-attachment: fixed;
+}
+
+#Work h1{
+    margin-top: 5rem;
+    display: inline-block;
+    padding: 0.5rem;
+    background-color: #c00b0b8b;
+    border-radius: 5px;
+}
+
+#options{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.button2{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 5rem;
+    padding: 1rem;
+    width: 10rem !important;
+    background-color: #c00b0bc4;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.button2 i{
+    animation-duration: 2s;
+}
+
+.optionText{
+    background-color: #c00b0b8b;
+    border-radius: 8px;
+    padding: 0.4rem;
+}
+
+@media (max-width: 728px){
+#options{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #Work{
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("https://th.bing.com/th/id/R.56bf3d0495eaf316624a7aaa88223418?rik=e4qQ3K8cJ%2b%2b16Q&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+    object-fit: cover;
+    padding-bottom: 1rem;
+ }
+ #carouselExampleIndicators, #carouselExampleIndicators2, #carouselExampleIndicators3, #carouselExampleIndicators4{
+    margin-bottom: 2rem;
+ }
+}
+
+.carousel-control-next, .carousel-control-prev{
+    opacity: 2 !important;
+}
+
+.list-unstyled li a:hover{
+    color: red !important;
+}

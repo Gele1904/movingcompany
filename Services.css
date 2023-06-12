@@ -1,71 +1,40 @@
-#Work{
-    background-image: url("https://th.bing.com/th/id/R.56bf3d0495eaf316624a7aaa88223418?rik=e4qQ3K8cJ%2b%2b16Q&pid=ImgRaw&r=0");
+#Services{
+    background-image: url("interior-design-of-a-house-1571460.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     overflow: hidden;
     z-index: 1;
     color: white;
-    object-fit: cover;
     padding-bottom: 1rem;
+    height: 100vh;
 }
-
-#Work h1{
-    margin-top: 5rem;
+#Services h2{
+    margin-top: 2rem;
     display: inline-block;
     padding: 0.5rem;
     background-color: #c00b0b8b;
     border-radius: 5px;
 }
 
-#options{
-    margin-top: 2rem;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-}
-
-.button2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    margin: 5rem;
-    padding: 1rem;
-    width: 10rem;
-    background-color: #c00b0bc4;
-    border-radius: 5px;
-}
-
-.optionText{
-    background-color: #c00b0b8b;
-    border-radius: 8px;
-    padding: 0.4rem;
-}
-
-@media (max-width: 728px){
-#options{
-    display: grid;
-    justify-content: center;
-    align-items: center;
- }
-
- #Work{
-    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("https://th.bing.com/th/id/R.56bf3d0495eaf316624a7aaa88223418?rik=e4qQ3K8cJ%2b%2b16Q&pid=ImgRaw&r=0");
+.firstHalf{
+    background-color: rgba(255, 166, 0, 0.492);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     overflow: hidden;
     z-index: 1;
     color: white;
-    object-fit: cover;
-    padding-bottom: 1rem;
- }
- #carouselExampleIndicators, #carouselExampleIndicators2, #carouselExampleIndicators3, #carouselExampleIndicators4{
-    margin-bottom: 2rem;
- }
+    height: 50vh;
 }
 
-.carousel-control-next, .carousel-control-prev{
-    opacity: 2 !important;
+.half{
+    background-color: rgba(255, 255, 255, 0.492);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+    height: 50vh;
 }
