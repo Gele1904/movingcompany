@@ -12,8 +12,6 @@
 }
 
 .text{
-    animation-name: text;
-    animation-duration: 1.5s;
     display: inline-block;
     padding: 2rem;
     color: white;
@@ -25,8 +23,6 @@
 
 .card{
 
-    animation-name: cards;
-    animation-duration: 1.5s;
     border-radius: 5px !important;
     background-color: rgba(199, 0, 0, 0.592) !important;
     color: white !important;
@@ -47,14 +43,6 @@
 }
 
 @media(max-width: 728px){
-    .card{
-        animation-name: cardsPhone;
-        animation-duration: 1.5s;
-    }
-    .text{
-        animation-name: textPhone;
-        animation-duration: 1.5s;
-    }
     .text p{
         font-size: smaller;
     }

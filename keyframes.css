@@ -12,13 +12,55 @@
 
 @keyframes cards {
     0% {transform: translateX(-100rem);}
-    50% {transform: translateX(5rem);}
+    50% {transform: translateX(15rem);}
     100% {}
 }
 
 
 @keyframes cardsPhone {
     0% {transform: translateX(-100rem);}
-    50% {transform: translateX(2rem);}
+    50% {transform: translateX(3rem);}
     100% {}
+}
+
+@keyframes button {
+    0% {transform: translateX(-100rem);}
+    50% {transform: translateX(8rem);}
+    100% {}
+}
+
+#About{
+    animation-name: cards;
+    animation-duration: 1.5s;
+}
+
+.text{
+    animation-name: text;
+    animation-duration: 1.5s;
+}
+.button{
+
+    animation-name: button;
+    animation-duration: 1.5s;
+
+}
+#options, button{
+    animation-name: cards;
+    animation-duration: 1.5s;
+}
+
+@media(max-width: 728px){
+    .card{
+        animation-name: cardsPhone;
+        animation-duration: 1.5s;
+    }
+    .text{
+        animation-name: textPhone;
+        animation-duration: 1.5s;
+    }
+    #About{
+        animation-name: cardsPhone;
+        animation-duration: 1.5s;
+    }
+
 }
