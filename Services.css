@@ -10,21 +10,37 @@
     padding-bottom: 1rem;
 }
 
-
 #Work h1{
     margin-top: 5rem;
     display: inline-block;
     padding: 0.5rem;
     background-color: #c00b0b8b;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 #options{
     margin-top: 2rem;
     display: flex;
+    gap: 1rem;
     align-items: center;
-    justify-content: space-around;
+}
 
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 5rem;
+    padding: 1rem;
+    width: 10rem;
+    background-color: #c00b0bc4;
+    border-radius: 5px;
+}
+
+.optionText{
+    background-color: #c00b0b8b;
+    border-radius: 8px;
+    padding: 0.4rem;
 }
 
 @media (max-width: 728px){
@@ -48,4 +64,8 @@
  #carouselExampleIndicators, #carouselExampleIndicators2, #carouselExampleIndicators3, #carouselExampleIndicators4{
     margin-bottom: 2rem;
  }
+}
+
+.carousel-control-next, .carousel-control-prev{
+    opacity: 2 !important;
 }

@@ -35,7 +35,7 @@
     animation-duration: 1.5s;
     border-radius: 5px !important;
     background-color: rgba(199, 0, 0, 0.592) !important;
-    color: white !important;
+    color: white;
 
 }
 
@@ -46,6 +46,10 @@
     width: 10rem;
     background-color: #c00b0bc4;
     border-radius: 5px;
+    font-size: larger;
+}
+.button i{
+    animation-duration: 2s;
 }
 
 @media(max-width: 728px){
@@ -114,5 +118,5 @@
     display: inline;
     padding: 0.5rem;
     background-color: #c00b0b8b;
-    border-radius: 8px;
+    border-radius: 5px;
 }
