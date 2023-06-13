@@ -127,3 +127,21 @@ input[type="checkbox"]{
   }
 }
 
+@media (max-width: 385px){
+  .logo{
+      font-size: 1.55rem;
+  }
+}
+
+@media (max-width: 320px){
+  .logo i{
+      margin-left: -2.2rem;
+  }
+}
+
+@media (max-width: 290px){
+  .logo{
+      font-size: 1.2rem;
+  }
+}
+

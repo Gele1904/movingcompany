@@ -5,36 +5,44 @@
     background-position: center center;
     overflow: hidden;
     z-index: 1;
-    color: white;
     padding-bottom: 1rem;
-    height: 100vh;
+    max-height: 100%;
 }
-#Services h2{
+#Services h3{
     margin-top: 2rem;
     display: inline-block;
     padding: 0.5rem;
     background-color: #c00b0b8b;
     border-radius: 5px;
+    color: white;
 }
 
-.firstHalf{
-    background-color: rgba(255, 166, 0, 0.492);
+@media(max-width: 728px){
+    #Services {
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("interior-design-of-a-house-1571460.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    overflow: hidden;
+    background-attachment: fixed;
+    height: 100%;
     z-index: 1;
-    color: white;
-    height: 50vh;
+    }
+
+    .half{
+        background-color: rgba(249, 249, 249, 0) !important;
+    }
 }
 
-.half{
-    background-color: rgba(255, 255, 255, 0.492);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
-    z-index: 1;
-    color: white;
-    height: 50vh;
+th, td {
+    border: solid white;
+  }
+  
+.exp{
+    background-color: #c00b0b8b;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.list-unstyled li a:hover{
+    color: red !important;
 }
