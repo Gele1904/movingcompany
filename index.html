@@ -24,7 +24,7 @@
     <ul>
       <li><a class="active" href="#Hero">Home</a></li>
       <li><a href="services.html">Services</a></li>
-      <li><a href="#">FAQ</a></li>
+      <li><a href="FAQ.html">FAQ</a></li>
       <li><a href="#">Feedback</a></li>
     </ul>
   </nav>
@@ -256,14 +256,13 @@
      </div>
   </div>
  </div>
-  <button onclick="mail()" class="button2 container"><i class="fa-solid fa-arrow-right fa-fade mx-2"></i> Services <i class="fa-solid fa-arrow-left fa-fade mx-2"></i></button>
+<button class="button2 container"><i class="fa-solid fa-arrow-right fa-fade mx-2"></i> Services <i class="fa-solid fa-arrow-left fa-fade mx-2"></i></button>
 </section>
 
 
 <!-- Footer -->
 <footer class="bg-dark text-center text-white">
   <div class="container p-4">
-    <h1>Follow Us</h1>
     <!-- Social media -->
     <section class="mb-4 mt-4" style="user-select: none;">
       <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button" target="_blank">
@@ -287,9 +286,9 @@
     <!--Text -->
     <section class="mb-4">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-        eum harum corrupti dicta, aliquam sequi voluptate quas.
+        Follow us on social media and get in touch with us if you have any questions.
+        We really hope that your experience with us as a supplier of high-quality furniture moving services will be positive. 
+        Our team is committed to exceeding your expectations and going above and beyond to ensure your complete satisfaction.
       </p>
     </section>
     <!-- Text -->
@@ -321,7 +320,7 @@
               <a onclick="contact()" class="text-white" style="cursor: pointer;"> Contact Us </a>
             </li>
             <li>
-              <a href="#Services" class="text-white">FAQ</a>
+              <a href="FAQ.html" class="text-white">FAQ</a>
             </li>
             <li>
               <a href="#!" class="text-white">Link 3</a>
@@ -335,12 +334,23 @@
 
   <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      <a class="text-white" style="text-decoration: none; user-select: non;">
+      <a class="text-white" style="text-decoration: none; user-select: none;">
         © 2023 Copyright: Home <strong style="color: red;">Express</strong></a>
     </div>
     <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
+<script>
+    function toServices(){
+    var button = document.getElementById("button3");
+
+    button.addEventListener("click", function()
+    {
+      window.location.href = "https://www.facebook.com";
+    });
+
+  };
+</script>
 </body>
 </html>
