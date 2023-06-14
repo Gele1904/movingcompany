@@ -89,7 +89,8 @@ input[type="checkbox"]{
     position: fixed;
     top: 63px;
     left: -100%;
-    background: #c00b0b;
+    background: linear-gradient(to top, #c00b0b, #610808);
+    /* #9c2727 */
     height: 100%;
     width: 100%;
     text-align: center;

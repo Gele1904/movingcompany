@@ -1,158 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="keyframes.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="FAQ.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <title>FAQ</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="keyframes.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="FAQ.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <title>FAQ</title>
 </head>
+
 <body>
-    <nav class="sticky-top">
-        <div class="logo">
-          <i class="fa-sharp fa-solid fa-truck-moving" style="font-size: 2.5rem;"></i> Home <strong style="color: red;">Express</strong></div>
-        <input type="checkbox" id="click">
-        <label for="click" class="menu-btn">
-          <i class="fas fa-bars"></i>
-        </label>
-        <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="FAQ.html">FAQ</a></li>
-          <li><a href="#">Feedback</a></li>
-        </ul>
-      </nav>
-<section id="FAQ">
-    <div class="container text-center">
-        <h2>Frequently Asked Question</h2>
-        <div id="text" class="container text-center">
-            <div class="row">
-              <div class="col">
-                Are there any extra fees I need to be aware of? Some moving companies will charge for things like: strangely shaped or awkward items; a residence that’s not easily accessible for a large moving truck or van and requires shuttle service; condos or high-rises with elevator and load restrictions; and loads that need to be hand carried over a certain distance. You may also be expected to pay fuel surcharges or transportation surcharges. If your items need to be stored, additional fees like warehouse handling charges may apply. Find out in advance so you can be prepared and avoid any surprises.
-              </div>
-              <div class="col">
-                How is the cost of my shipment calculated? If you are moving long distance to a new state, the charges may be based on the weight of your shipment and mileage. These are referred to as the transportation charges. There are a variety of different charges that could appear on your estimate, so be sure to ask the mover to explain each item charge for you.
-              </div>
-              <div class="col">
-                What kind of liability coverage do you provide? All interstate movers have to offer coverage (usually called “released value”) and it assumes liability for your personal property at a rate of $0.60 per pound. Keep in mind, though, when it comes to protecting your belongings, one size does not fit all. The level of protection you need may be greater than minimum levels based on your total shipment weight. Be sure to consider your high-value items in the determination of the protection coverage best suited for your belongings. For example, if your 70-pound flat screen crashes to the ground, you’ll only get approximately $42 as reimbursement. Basic Liability Protection is free of charge with your move, but you must confirm this level of coverage in writing. Be sure they offer plenty of options.
-              </div>
-            </div>
-          </div>
+  <nav class="sticky-top">
+    <div class="logo">
+      <i class="fa-sharp fa-solid fa-truck-moving" style="font-size: 2.5rem;"></i> Home <strong
+        style="color: red;">Express</strong>
     </div>
-</section>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="FAQ.html">FAQ</a></li>
+      <li><a href="#">Feedback</a></li>
+    </ul>
+  </nav>
+  <section id="FAQ">
+    <div class="container text-center">
+      <h3>Frequently Asked Question</h3>
+    </div>
+    <div class="container text-center d-flex justify-content-center">
+      <div class="wrapper mt-5">
+        <!-- Accordion Heading One -->
+        <div class="parent-tab">
+          <input type="radio" name="tab" id="tab-1" checked>
+          <label for="tab-1">
+            <span>Are there any extra fees I need to be aware of?</span>
+            <div class="icon"><i class="fas fa-plus"></i></div>
+          </label>
+          <div class="content">
+            <p>
+              Some moving companies will charge for things like: strangely shaped or awkward items a residence that’s not easily accessible for a large moving truck or van and requires shuttle service condos or high-rises with elevator and load restrictions and loads that need to be hand carried over a certain distance. 
+              You may also be expected to pay fuel surcharges or transportation surcharges. If your items need to be stored, additional fees like warehouse handling charges may apply. 
+              Find out in advance so you can be prepared and avoid any surprises.
+            </p>
+          </div>
+        </div>
+
+        <!-- Accordion Heading Two -->
+        <div class="parent-tab">
+          <input type="radio" name="tab" id="tab-2">
+          <label for="tab-2">
+            <span>How is the cost of my shipment calculated?</span>
+            <div class="icon"><i class="fas fa-plus"></i></div>
+          </label>
+          <div class="content">
+            <p>
+              If you are moving long distance to a new state, the charges may be based on the weight of your shipment and mileage. 
+              These are referred to as the transportation charges. 
+              There are a variety of different charges that could appear on your estimate, so be sure to ask the mover to explain each item charge for you.
+            </p>
+          </div>
+        </div>
+
+        <!-- Accordion Heading Four -->
+        <div class="parent-tab">
+          <input type="radio" name="tab" id="tab-3">
+          <label for="tab-3">
+            <span>What kind of liability coverage do you provide?</span>
+            <div class="icon"><i class="fas fa-plus"></i></div>
+          </label>
+          <div class="content">
+            <p>
+              All interstate movers have to offer coverage (usually called “released value”) and it assumes liability for your personal property at a rate of $0.60 per pound. Keep in mind, though,
+               when it comes to protecting your belongings, one size does not fit all. 
+              The level of protection you need may be greater than minimum levels based on your total shipment weight. 
+              Be sure to consider your high-value items in the determination of the protection coverage best suited for your belongings. 
+              For example, if your 70-pound flat screen crashes to the ground, you’ll only get approximately $42 as reimbursement. 
+              Basic Liability Protection is free of charge with your move, but you must confirm this level of coverage in writing. 
+              Be sure they offer plenty of options.
+            </p>
+          </div>
+        </div>
+
+        <!-- Accordion Heading Four -->
+        <div class="parent-tab">
+          <input type="radio" name="tab" id="tab-4">
+          <label for="tab-4">
+            <span>What can’t we bring?</span>
+            <div class="icon"><i class="fas fa-plus"></i></div>
+          </label>
+          <div class="content">
+            <p>
+              Packing perishable, dangerous or hazardous materials in your household goods without your mover's knowledge is not a good idea. Seemingly innocent items such as nail polish remover, 
+              paint and automotive maintenance products can limit their liability if something goes wrong, so be sure you know which items are on the hazardous materials list. 
+              And if you choose to pack your own boxes and the articles get damaged, it may be more difficult to establish your claim against the mover for those boxes.
+            </p>
+          </div>
+        </div>
+
+        <div class="parent-tab">
+          <input type="radio" name="tab" id="tab-5">
+          <label for="tab-5">
+            <span>What can you tell me about your workers?</span>
+            <div class="icon"><i class="fas fa-plus"></i></div>
+          </label>
+          <div class="content">
+            <p>
+              Quality movers will have extensive coverage for workers compensation, so you don’t have to worry about being sued if a worker gets hurt while on the job. 
+              Also, choose a company that performs background checks on its workers – after all, you’re letting them into your home. 
+              This is a preemptive measure taken to ensure only the most reputable, professional workers enter your home, including packers, drivers, movers, coordinators and other staff.
+            </p>
+          </div>
+        </div>
+
+        <div class="parent-tab">
+          <input type="radio" name="tab" id="tab-6">
+          <label for="tab-6">
+            <span>How do you pack fragile or high-value items?</span>
+            <div class="icon"><i class="fas fa-plus"></i></div>
+          </label>
+          <div class="content">
+            <p>
+              Fragile items should be those defined by you to be breakable or high-value (such as dishes, glassware, artwork, fragile furniture, mirrors, etc.). 
+              Ensure that all the items in your home are packed by experts using the most up-to-date packing methods and materials in the industry.
+            </p>
+          </div>
+        </div>
+
+        <div class="parent-tab">
+          <input type="radio" name="tab" id="tab-7">
+          <label for="tab-7">
+            <span>How should I pay and what are the payment methods?</span>
+            <div class="icon"><i class="fas fa-plus"></i></div>
+          </label>
+          <div class="content">
+            <p>
+              Tariff provisions require that all charges be paid before your shipment is unloaded at destination. 
+              Payments can be made using cash, certified check or money order. But find out which other payment options are available, such as a credit card. 
+              In the event that your employer is paying for the move, the employer may pre-arrange to be billed via invoice. 
+              Just be sure to have this all worked out prior to packing and loading. If the method of payment is not established prior to load day, it can cause you problems on delivery day.
+            </p>
+          </div>
+        </div>
+
+        <div class="parent-tab">
+          <input type="radio" name="tab" id="tab-8">
+          <label for="tab-8">
+            <span>How will I know where my shipment is once it leaves my home?</span>
+            <div class="icon"><i class="fas fa-plus"></i></div>
+          </label>
+          <div class="content">
+            <p>
+              Find out if the moving company offers satellite tracking capabilities that will allow you to trace the whereabouts of your shipment and driver over the internet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Footer -->
-<footer class="bg-dark text-center text-white">
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white">
     <div class="container p-4">
       <!-- Social media -->
       <section class="mb-4 mt-4" style="user-select: none;">
-        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button" target="_blank">
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"
+          target="_blank">
           <i class="fab fa-facebook-f"></i>
         </a>
-  
-        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/i/flow/login" role="button" target="_blank">
+
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/i/flow/login" role="button"
+          target="_blank">
           <i class="fab fa-twitter"></i>
         </a>
-  
+
         <a onclick="contact()" class="btn btn-outline-light btn-floating m-1" role="button" target="_blank">
           <i class="fa-regular fa-envelope"></i>
         </a>
-  
-        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button" target="_blank">
+
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
+          target="_blank">
           <i class="fab fa-instagram"></i>
         </a>
       </section>
       <!-- Social Media -->
-  
+
       <!--Text -->
       <section class="mb-4">
         <p>
           Follow us on social media and get in touch with us if you have any questions.
-          We really hope that your experience with us as a supplier of high-quality furniture moving services will be positive. 
-          Our team is committed to exceeding your expectations and going above and beyond to ensure your complete satisfaction.
+          We really hope that your experience with us as a supplier of high-quality furniture moving services will be
+          positive.
+          Our team is committed to exceeding your expectations and going above and beyond to ensure your complete
+          satisfaction.
         </p>
       </section>
       <!-- Text -->
-  
-  
-        <div class="row">
-          <div class="col-lg-6 col-md-6 mb-4 mb-md-0" style="user-select: none;">
-            <h5 class="text-uppercase"> Content </h5>
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="index.html" class="text-white">Home</a>
-              </li>
-              <li>
-                <a href="services.html" class="text-white">Services</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Feedback</a>
-              </li>
-            </ul>
-          </div>
-  
-          <div class="col-lg-6 col-md-6 mb-4 mb-md-0" style="user-select: none;">
-            <h5 class="text-uppercase"> Support </h5>
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a onclick="contact()" class="text-white" style="cursor: pointer;"> Contact Us </a>
-              </li>
-              <li>
-                <a href="#Services" class="text-white">FAQ</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-            </ul>
-          </div>
+
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 mb-4 mb-md-0" style="user-select: none;">
+          <h5 class="text-uppercase"> Content </h5>
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="index.html" class="text-white">Home</a>
+            </li>
+            <li>
+              <a href="services.html" class="text-white">Services</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Feedback</a>
+            </li>
+          </ul>
         </div>
-    </div>
-  
-    <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        <a class="text-white" style="text-decoration: none; user-select: none;">
-          © 2023 Copyright: Home <strong style="color: red;">Express</strong></a>
+
+        <div class="col-lg-6 col-md-6 mb-4 mb-md-0" style="user-select: none;">
+          <h5 class="text-uppercase"> Support </h5>
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a onclick="contact()" class="text-white" style="cursor: pointer;"> Contact Us </a>
+            </li>
+            <li>
+              <a href="#Services" class="text-white">FAQ</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <!-- Copyright -->
-  
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <a class="text-white" style="text-decoration: none; user-select: none;">
+        © 2023 Copyright: Home <strong style="color: red;">Express</strong></a>
+    </div>
+    <!-- Copyright -->
+
   </footer>
   <!-- Footer -->
 </body>
+
 </html>

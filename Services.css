@@ -12,9 +12,23 @@
     margin-top: 2rem;
     display: inline-block;
     padding: 0.5rem;
-    background-color: #c00b0b8b;
+    background-color: #c00b0b;
     border-radius: 5px;
     color: white;
+}
+
+th, td {
+    border: solid white;
+  }
+  
+.exp{
+    background-color: #c00b0bd6;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.list-unstyled li a:hover{
+    color: red !important;
 }
 
 @media(max-width: 728px){
@@ -31,18 +45,4 @@
     .half{
         background-color: rgba(249, 249, 249, 0) !important;
     }
-}
-
-th, td {
-    border: solid white;
-  }
-  
-.exp{
-    background-color: #c00b0b8b;
-    margin-top: 2rem;
-    padding: 1rem;
-    border-radius: 5px;
-}
-.list-unstyled li a:hover{
-    color: red !important;
 }

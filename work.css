@@ -11,11 +11,11 @@
     background-attachment: fixed;
 }
 
-#Work h1{
+#Work h3{
     margin-top: 5rem;
     display: inline-block;
     padding: 0.5rem;
-    background-color: #c00b0b8b;
+    background-color: #c00b0b;
     border-radius: 5px;
 }
 
@@ -33,7 +33,7 @@
     margin: 5rem;
     padding: 1rem;
     width: 10rem !important;
-    background-color: #c00b0bc4;
+    background-color: #c00b0b;
     border-radius: 5px;
     font-size: larger;
 }
@@ -43,7 +43,7 @@
 }
 
 .optionText{
-    background-color: #c00b0b8b;
+    background-color: #c00b0bd5;
     border-radius: 8px;
     padding: 0.4rem;
 }
