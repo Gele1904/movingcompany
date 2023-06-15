@@ -34,6 +34,11 @@
     animation-duration: 1.5s;
 }
 
+#FAQ .container{
+    animation-name: cards;
+    animation-duration: 1.5s;
+}
+
 .text{
 
     animation-name: text;
@@ -92,6 +97,10 @@
     }
     .animate{
         animation-name: textPhone;
+        animation-duration: 1.5s;
+    }
+    #FAQ .container{
+        animation-name: cardsPhone;
         animation-duration: 1.5s;
     }
 
