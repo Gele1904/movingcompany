@@ -52,11 +52,13 @@
   .wrapper .parent-tab label:hover{
     background: #f30b0b;
   }
+  
   .parent-tab input:checked ~ label,
   .child-tab input:checked ~ label{
     border-radius: 3px 3px 0 0;
     background: #f30b0b;
   }
+
   .wrapper label span{
     color: #fff;
     font-size: 18px;
